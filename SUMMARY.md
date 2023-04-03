@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Main](README.md)
+* [API](api.md)
 
 ## Contracts
 
