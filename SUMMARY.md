@@ -1,9 +1,12 @@
 # Table of contents
 
 * [Main](README.md)
-* [User actions](user-actions.md)
-* [Contracts](contracts.md)
 
 ## Contracts
 
-* [Test](contracts-1/test.md)
+* [Master](contracts/master.md)
+ 
+ 
+## Actions
+
+* [Sell GOV](user-actions/sell-gov.md)
