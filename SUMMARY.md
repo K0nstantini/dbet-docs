@@ -1,13 +1,12 @@
 # Table of contents
 
-* [Main](README.md)
-* [API](api.md)
+* [About](README.md)
 
 ## Contracts
 
 * [Master](contracts/master.md)
- 
- 
+
 ## Actions
 
-* [Sell GOV](user-actions/sell-gov.md)
+* [Buy GOV](user-actions/buy-gov-jettons.md)
+* [Sell GOV](user-actions/sell-gov-jettons.md)
