@@ -11,7 +11,10 @@ description: The primary contract serves as the central dispatcher, either direc
 - **From**: Any address
 - **To**: Any of `Buy BET`, `Sell BET`, `Buy GOV`, `Sell GOV`, `Sender`
 - **Input**: Any incoming message
-- **Output**: Jettons supply and incoming message body
+- **Output**:
+    - `sender`
+    - `jettons_supply`
+    - Incoming message body
 - **Action**: Forwards the message body, along with the jettons supply
 
 ### Provide the addresses of all modules
@@ -26,8 +29,8 @@ ___
 
 ## Data
 
-- `Buy BET` addr
-- `Sell BET` addr
-- `Buy GOV` addr
-- `Sell GOV` addr
+- `Buy BET`
+- `Sell BET`
+- `Buy GOV`
+- `Sell GOV`
 - Jettons supply

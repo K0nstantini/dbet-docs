@@ -11,10 +11,10 @@ description: This contract is responsible for managing the purchase of Gov jetto
 - **From**: `Master`
 - **To**: `BET Minter`
 - **Input**:
-    - `user_addr`
-    - `jettons_suply`
     - `bet_wallet`
     - `gov_amount`
+    - `user_addr`
+    - `jettons_supply`
 - **Output**: Incoming message body
 - **Action**: Request the total supply of BET tokens
 
@@ -23,16 +23,17 @@ description: This contract is responsible for managing the purchase of Gov jetto
 - **From**: `BET Minter`
 - **To**: `BET Wallet`
 - **Input**:
-    - `user_addr`
-    - `jettons_suply`
     - `bet_wallet`
     - `gov_amount`
+    - `user_addr`
+    - `jettons_supply`
     - `bet_supply`
 - **Output**:
+    - `bet_amount`
+    - `buy_gov`
     - `user_addr`
     - `gov_amount`
-    - `bet_amount`
-- **Action**: Calc how many BETs need to for GOVs and request to burn BETs
+- **Action**: Calc how many BETs need to for GOVs and request to burn BET tokens
 
 ### Mint GOV jettons
 
@@ -41,15 +42,13 @@ description: This contract is responsible for managing the purchase of Gov jetto
 - **Input**:
     - `user_addr`
     - `gov_amount`
-- **Output**:
-    - `user_addr`
-    - `gov_amount`
+- **Output**: Incoming message body
 - **Action**: Confirmation of successful burning of BET tokens and request for minting GOV jettons
 
 ___
 
 ## Data
 
-- `Master` addr
-- `BET Minter` addr
-- `GOV Minter` addr
+- `Master`
+- `BET Minter`
+- `GOV Minter`

@@ -9,10 +9,9 @@ description: Buy GOV jettons for BET tokens
 * **To**: `Master` contract
 * **Op. code**: TODO
 * **Message body**:
-    * `sender`: The address of the user's wallet.
-    * `buy_gov`: The address of the `Buy GOV` that can be obtained from the `Master` contract.
-    * `bet_wallet`: The address of the user's `BET Wallet` contract that can be obtained from the `BET Minter` contract.
-    * `amount`: The amount of GOV to buy.
+    * `bet_wallet`: The address of the user's `BET Wallet` contract that can be obtained from the `BET Minter`
+      contract. `BET Minter` can be obtained from the `Master` contract.
+    * `bet_amount`
 
 ## All transactions
 
