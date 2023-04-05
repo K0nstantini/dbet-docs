@@ -4,7 +4,7 @@ description: The primary contract serves as the central dispatcher, either direc
 
 # Master
 
-## Internal message handler
+## Internal message handlers
 
 ### Message forwarding
 

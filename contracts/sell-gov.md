@@ -2,23 +2,21 @@
 description: This contract is responsible for managing the sale of Gov jettons and performs various operations related to calculating interest or managing other aspects of the sale process.
 ---
 
-# Sell GOV jettons
+# Sell GOV
 
-## Internal message handler
+## Internal message handlers
 
 ### Primary operation for selling GOV jettons
 
 - **From**: `Master`
-- **To**: `GOV Wallet`
+- **To**: `GOV Minter`
 - **Input**:
-    - `gov_wallet`
-    - `gov_amount`
     - `user_addr`
     - `jettons_supply`
-- **Output**:
     - `gov_amount`
-    - `sell_gov`
+- **Output**:
     - `user_addr`
+    - `gov_amount`
     - `jettons_supply`
 - **Action**: Request to burn GOV jettons
 

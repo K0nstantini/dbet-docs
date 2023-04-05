@@ -2,9 +2,9 @@
 description: This contract is responsible for managing the purchase of Gov jettons and performs various operations related to calculating interest or managing other aspects of the purchase process.
 ---
 
-# Buy GOV jettons
+# Buy GOV
 
-## Internal message handler
+## Internal message handlers
 
 ### Primary operation for purchasing GOV jettons
 
