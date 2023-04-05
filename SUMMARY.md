@@ -5,6 +5,7 @@
 ## Contracts
 
 * [Master](contracts/master.md)
+* [Buy GOV](contracts/buy-gov.md)
 
 ## Actions
 
