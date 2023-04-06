@@ -56,3 +56,7 @@ Calc how many BET tokens need to for GOV jettons and request to burn BET tokens
 * `GOV Minter`
 * `jettons_supply`
 * `bet_supply`
+* `comission_bet_buy`
+* `comission_bet_sell`
+* `comission_gov_buy`
+* `comission_gov_sell`
