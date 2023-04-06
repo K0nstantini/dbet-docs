@@ -1,5 +1,7 @@
 ---
-description: The primary contract serves as the central dispatcher, either directing incoming messages to modules or executing its own logic.
+description: >-
+  The primary contract serves as the central dispatcher, either directing
+  incoming messages to modules or executing its own logic.
 ---
 
 # Master
@@ -10,28 +12,27 @@ description: The primary contract serves as the central dispatcher, either direc
 
 Forwards the message body, along with the sender address
 
-| From        | To                      | Input | Output                        |
-|-------------|-------------------------|-------|-------------------------------|
-| Any address | `Exchange`<br/>`Sender` | any   | `sender`<br/>incoming message |
+| From        | To                                                                | Input | Output                                         |
+| ----------- | ----------------------------------------------------------------- | ----- | ---------------------------------------------- |
+| Any address | <p><a href="exchange.md">Exchange</a>,<br><code>Sender</code></p> | any   | <p><code>sender</code><br>incoming message</p> |
 
 ### Provide the addresses of all modules
 
 Forwards the message body, along with the module addresses
 
-| From        | To       | Input | Output                              |
-|-------------|----------|-------|-------------------------------------|
-| Any address | `Sender` | any   | module address<br/>incoming message |
+| From        | To       | Input | Output                                    |
+| ----------- | -------- | ----- | ----------------------------------------- |
+| Any address | `Sender` | any   | <p>module address<br>incoming message</p> |
 
 ### Send Jettons
 
 Transfer of Jettons to a user on request
 
-| From     | To            | Input                            | Output                           |
-|----------|---------------|----------------------------------|----------------------------------|
-| Exchange | Jetton Wallet | `user_addr`<br/>`jettons_amount` | `user_addr`<br/>`jettons_amount` |
+| From                                 | To            | Input                                                        | Output                                                       |
+| ------------------------------------ | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [exchange.md](exchange.md "mention") | Jetton Wallet | <p><code>user_addr</code><br><code>jettons_amount</code></p> | <p><code>user_addr</code><br><code>jettons_amount</code></p> |
 
 ## Data
 
-- `Jetton Wallet`
-- `Exchange`
-
+* `Jetton Wallet`
+* `Exchange`
