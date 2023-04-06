@@ -49,9 +49,18 @@ Calc how many BET tokens need to for GOV jettons and request to burn BET tokens
 | -------------------------------- | ---------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [master.md](master.md "mention") | [bet-minter.md](bet-minter.md "mention") | <p><code>user_addr</code><br><code>gov_amount</code></p> | <p><code>user_addr</code><br><code>bet_amount</code><br><code>gov_amount</code></p> |
 
+### Change contract data
+
+TODO
+
+| From                         | To                           | Input | Output |
+| ---------------------------- | ---------------------------- | ----- | ------ |
+| [vote.md](vote.md "mention") | [vote.md](vote.md "mention") |       |        |
+
 ## Data
 
 * `Master`
+* `Vote`
 * `BET Minter`
 * `GOV Minter`
 * `jettons_supply`
