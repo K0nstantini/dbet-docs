@@ -14,9 +14,4 @@
 ## Actions
 
 * [BET operations](user-actions/bet-operations.md)
-* [Buy BET](user-actions/buy-bet.md)
-* [Sell BET](user-actions/sell-bet.md)
-* [Transfer BET](user-actions/transfer-bet.md)
-* [Buy GOV](user-actions/buy-gov.md)
-* [Sell GOV](user-actions/sell-gov.md)
-* [Transfer GOV](user-actions/transfer-gov.md)
+* [GOV operations](user-actions/gov-operations.md)
