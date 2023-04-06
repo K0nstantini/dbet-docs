@@ -1,5 +1,5 @@
 ---
-description: Buy BET tokens for jettons
+description: Buy BET tokens for Jettons
 ---
 
 # Buy BET

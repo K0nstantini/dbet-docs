@@ -1,5 +1,5 @@
 ---
-description: Sell BET tokens for jettons
+description: Sell BET tokens for Jettons
 ---
 
 # Sell BET
