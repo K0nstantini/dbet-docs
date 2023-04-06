@@ -1,5 +1,5 @@
 ---
-description: Purchase, sale and transfer GOV Jettons
+description: Purchase, sale and transfer GOV Jettons.
 ---
 
 # GOV operations

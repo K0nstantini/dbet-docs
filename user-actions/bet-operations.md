@@ -1,5 +1,5 @@
 ---
-description: Purchase, sale and transfer BET tokens
+description: Purchase, sale and transfer BET tokens.
 ---
 
 # BET operations
