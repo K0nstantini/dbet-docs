@@ -27,9 +27,9 @@ description: Purchase, sale and transfer BET tokens
 
 ## Sell
 
-| To     | Op. code | Data         |
-| ------ | -------- | ------------ |
-| Master | TODO     | `bet_amount` |
+| To                                            | Op. code | Data         |
+| --------------------------------------------- | -------- | ------------ |
+| [master.md](../contracts/master.md "mention") | TODO     | `bet_amount` |
 
 
 

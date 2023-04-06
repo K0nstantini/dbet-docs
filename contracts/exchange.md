@@ -2,7 +2,7 @@
 description: >-
   This contract is responsible for managing the purchase and sale of Gov jettons
   and BET tokens. It performs various operations related to calculating interest
-  or managing other aspects of the purchase/
+  or managing other aspects of the purchase.
 ---
 
 # Exchange

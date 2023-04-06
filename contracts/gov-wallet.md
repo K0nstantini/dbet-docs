@@ -1,5 +1,5 @@
 ---
-description: Standard Jetton wallet smart-contract
+description: Standard Jetton wallet smart-contract.
 ---
 
 # GOV Wallet
