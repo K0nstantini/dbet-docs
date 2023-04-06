@@ -13,6 +13,7 @@
 
 ## Actions
 
+* [BET operations](user-actions/bet-operations.md)
 * [Buy BET](user-actions/buy-bet.md)
 * [Sell BET](user-actions/sell-bet.md)
 * [Transfer BET](user-actions/transfer-bet.md)
