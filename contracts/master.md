@@ -8,29 +8,30 @@ description: The primary contract serves as the central dispatcher, either direc
 
 ### Message forwarding
 
-- **From**: Any address
-- **To**: Any of `Buy BET`, `Sell BET`, `Buy GOV`, `Sell GOV`, `Sender`
-- **Input**: Any incoming message
-- **Output**:
-    - `sender`
-    - `jettons_supply`
-    - Incoming message body
-- **Action**: Forwards the message body, along with the jettons supply
+Forwards the message body, along with the sender address
+
+| From        | To                      | Input | Output                        |
+|-------------|-------------------------|-------|-------------------------------|
+| Any address | `Exchange`<br/>`Sender` | any   | `sender`<br/>incoming message |
 
 ### Provide the addresses of all modules
 
-- **From**: Any address
-- **To**: `Sender`
-- **Input**: Any incoming message
-- **Output**: All module addresses and incoming message body
-- **Action**: Forwards the message body, along with the module addresses
+Forwards the message body, along with the module addresses
 
-___
+| From        | To       | Input | Output                              |
+|-------------|----------|-------|-------------------------------------|
+| Any address | `Sender` | any   | module address<br/>incoming message |
+
+### Send Jettons
+
+Transfer of Jettons to a user on request
+
+| From     | To            | Input                            | Output                           |
+|----------|---------------|----------------------------------|----------------------------------|
+| Exchange | Jetton Wallet | `user_addr`<br/>`jettons_amount` | `user_addr`<br/>`jettons_amount` |
 
 ## Data
 
-- `Buy BET`
-- `Sell BET`
-- `Buy GOV`
-- `Sell GOV`
-- Jettons supply
+- `Jetton Wallet`
+- `Exchange`
+
