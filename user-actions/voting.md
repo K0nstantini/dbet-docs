@@ -66,15 +66,16 @@ Default jetton transferring process with payload
 | ----------------------------------------- | -------- | --------------------------------------------------------------------------- |
 | [vote.md](../contracts/vote.md "mention") | TODO     | <p><code>target</code><br><code>identifier</code><br><code>value</code></p> |
 
-| #   | From                                                        | To                                                         | Operation                    |
-| --- | ----------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
-| 1   | User Wallet                                                 | [vote.md](../contracts/vote.md "mention")                  | Request to withdraw GOV      |
-| 2   | [vote.md](../contracts/vote.md "mention")                   | [gov-minter.md](../contracts/gov-minter.md "mention")      | Get user's GOV address       |
-| 3   | [gov-minter.md](../contracts/gov-minter.md "mention")       | [vote.md](../contracts/vote.md "mention")                  | Provide user's GOV address   |
-| 4   | [vote.md](../contracts/vote.md "mention")                   | User Votes                                                 | Get user's votes             |
-| 5   | User Votes                                                  | [vote.md](../contracts/vote.md "mention")                  | Provide user's votes         |
-| 6.1 | [vote.md](../contracts/vote.md "mention")                   | Vote [gov-wallet.md](../contracts/gov-wallet.md "mention") | Request to transfer GOV      |
-| 7.1 | Vote G[gov-wallet.md](../contracts/gov-wallet.md "mention") | User [gov-wallet.md](../contracts/gov-wallet.md "mention") | Transfer GOV to user         |
-| 6.2 | [vote.md](../contracts/vote.md "mention")                   | [gov-minter.md](../contracts/gov-minter.md "mention")      | Request to mint GOV (reward) |
-| 8.2 | [gov-minter.md](../contracts/gov-minter.md "mention")       | [exchange.md](../contracts/exchange.md "mention")          | Notification: Minted GOV     |
-| 8.2 | [exchange.md](../contracts/exchange.md "mention")           | [vote.md](../contracts/vote.md "mention")                  | Notification: Minted GOV     |
+| #   | From                                                       | To                                                         | Operation                    |
+| --- | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
+| 1   | User Wallet                                                | [vote.md](../contracts/vote.md "mention")                  | Request to withdraw GOV      |
+| 2   | [vote.md](../contracts/vote.md "mention")                  | [gov-minter.md](../contracts/gov-minter.md "mention")      | Get user's GOV address       |
+| 3   | [gov-minter.md](../contracts/gov-minter.md "mention")      | [vote.md](../contracts/vote.md "mention")                  | Provide user's GOV address   |
+| 4   | [vote.md](../contracts/vote.md "mention")                  | User Votes                                                 | Get user's votes             |
+| 5   | User Votes                                                 | [vote.md](../contracts/vote.md "mention")                  | Provide user's votes         |
+| 6.1 | [vote.md](../contracts/vote.md "mention")                  | Vote [gov-wallet.md](../contracts/gov-wallet.md "mention") | Request to transfer GOV      |
+| 7.1 | Vote [gov-wallet.md](../contracts/gov-wallet.md "mention") | User [gov-wallet.md](../contracts/gov-wallet.md "mention") | Transfer GOV to user         |
+| 6.2 | [vote.md](../contracts/vote.md "mention")                  | [exchange.md](../contracts/exchange.md "mention")          | Request to mint GOV (reward) |
+| 8.2 | [exchange.md](../contracts/exchange.md "mention")          | [gov-minter.md](../contracts/gov-minter.md "mention")      | Request to mint GOV          |
+| 8.2 | [gov-minter.md](../contracts/gov-minter.md "mention")      | User [gov-wallet.md](../contracts/gov-wallet.md "mention") | Transfer GOV to user         |
+
