@@ -1,5 +1,5 @@
 ---
-description: СТАВКИ НА СПОРТ! :)
+description: Sports betting
 ---
 
 # About
