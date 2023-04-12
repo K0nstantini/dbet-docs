@@ -6,7 +6,7 @@ description: Purchase, sale and transfer GOV Jettons.
 
 {% hint style="info" %}
 **First table**: sending message structure\
-**Second table**: all transactions
+**Second table**: sequence of transactions
 {% endhint %}
 
 ## Buy
@@ -47,5 +47,5 @@ Default jetton burning process
 ## Transfer
 
 {% hint style="info" %}
-Default jetton transfer process
+Default jetton transferring process
 {% endhint %}

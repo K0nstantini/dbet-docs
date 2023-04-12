@@ -16,3 +16,4 @@
 
 * [BET operations](user-actions/bet-operations.md)
 * [GOV operations](user-actions/gov-operations.md)
+* [Voting](user-actions/voting.md)

@@ -6,7 +6,7 @@ description: Purchase, sale and transfer BET tokens.
 
 {% hint style="info" %}
 **First table**: sending message structure\
-**Second table**: all transactions
+**Second table**: sequence of transactions
 {% endhint %}
 
 ## Buy
@@ -47,5 +47,5 @@ description: Purchase, sale and transfer BET tokens.
 ## Transfer
 
 {% hint style="info" %}
-Default jetton transfer process
+Default jetton transferring process
 {% endhint %}

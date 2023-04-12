@@ -1,7 +1,6 @@
 ---
 description: >-
-  GOV holders can vote to change contract settings by locking GOV jettons. TODO:
-  change
+  GOV jettons holders can vote to change the settings of a contract by locking their GOV jettons.
 ---
 
 # Vote
