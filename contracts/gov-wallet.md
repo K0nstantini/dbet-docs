@@ -4,10 +4,10 @@ description: Standard Jetton wallet smart-contract.
 
 # GOV Wallet
 
-## New internal message handlers
+### Differences from a typical Jetton wallet contract
 
-### Jettons locking for voting
+- Notify the owner about received jettons if there is additional data in the message body
 
-| From        | To           | Input                                                           | Output           |
-|-------------|--------------|-----------------------------------------------------------------|------------------|
-| User Wallet | `GOV Minter` | `amount`<br/>`contract`<br/>`identifier`<br/>`value`<br/>`vote` | incoming message |
+
+### New internal message handlers
+

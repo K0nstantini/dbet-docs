@@ -14,15 +14,16 @@ description: >-
 Confirmation of successful burning of BET tokens and request for minting GOV jettons
 
 | From                                     | To                                       | Input                                                    | Output                                                   |
-| ---------------------------------------- | ---------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+|------------------------------------------|------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | [bet-minter.md](bet-minter.md "mention") | [gov-minter.md](gov-minter.md "mention") | <p><code>user_addr</code><br><code>gov_amount</code></p> | <p><code>user_addr</code><br><code>gov_amount</code></p> |
 
 ### Mint BET tokens for GOV jettons
 
-Confirmation of successful burning of GOV jettons, calc how many BET tokens need to for them and request for minting BET tokens
+Confirmation of successful burning of GOV jettons, calc how many BET tokens need to for them and request for minting BET
+tokens
 
 | From                                     | To                                       | Input                                                    | Output                                                   |
-| ---------------------------------------- | ---------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+|------------------------------------------|------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | [gov-minter.md](gov-minter.md "mention") | [bet-minter.md](bet-minter.md "mention") | <p><code>user_addr</code><br><code>bet_amount</code></p> | <p><code>user_addr</code><br><code>bet_amount</code></p> |
 
 ### Mint BET tokens for Jettons
@@ -30,7 +31,7 @@ Confirmation of successful burning of GOV jettons, calc how many BET tokens need
 Confirmation of received Jettons and request for minting BET tokens
 
 | From                             | To                                       | Input                                                       | Output                                                   |
-| -------------------------------- | ---------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+|----------------------------------|------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------|
 | [master.md](master.md "mention") | [bet-minter.md](bet-minter.md "mention") | <p><code>user_addr</code><br><code>jetton_amount</code></p> | <p><code>user_addr</code><br><code>bet_amount</code></p> |
 
 ### Burn BET tokens for Jettons
@@ -38,7 +39,7 @@ Confirmation of received Jettons and request for minting BET tokens
 User's request to sell BET tokens for Jettons
 
 | From                             | To                                       | Input                                                    | Output                                                   |
-| -------------------------------- | ---------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+|----------------------------------|------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | [master.md](master.md "mention") | [bet-minter.md](bet-minter.md "mention") | <p><code>user_addr</code><br><code>bet_amount</code></p> | <p><code>user_addr</code><br><code>bet_amount</code></p> |
 
 ### Burn BET tokens for GOV Jettons
@@ -46,7 +47,7 @@ User's request to sell BET tokens for Jettons
 Calc how many BET tokens need to for GOV jettons and request to burn BET tokens
 
 | From                             | To                                       | Input                                                    | Output                                                                              |
-| -------------------------------- | ---------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+|----------------------------------|------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [master.md](master.md "mention") | [bet-minter.md](bet-minter.md "mention") | <p><code>user_addr</code><br><code>gov_amount</code></p> | <p><code>user_addr</code><br><code>bet_amount</code><br><code>gov_amount</code></p> |
 
 ### Notifying `Vote` contract
@@ -54,7 +55,7 @@ Calc how many BET tokens need to for GOV jettons and request to burn BET tokens
 Notifying `Vote` about changing the number of GOV jettons
 
 | From                                     | To                           | Input        | Output       |
-| ---------------------------------------- | ---------------------------- | ------------ | ------------ |
+|------------------------------------------|------------------------------|--------------|--------------|
 | [gov-minter.md](gov-minter.md "mention") | [vote.md](vote.md "mention") | `gov_amount` | `gov_amount` |
 
 ## Data
